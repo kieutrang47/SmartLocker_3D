@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Locker Go 3D</title>
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <style>
+      body {
+        margin: 0;
+        background: #f4f6f8;
+        height: 100vh;
+      }
+      model-viewer {
+        width: 100vw;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <model-viewer
+      src="./locker_go_3d.glb"
+      camera-controls
+      auto-rotate
+      shadow-intensity="1"
+      exposure="1"
+      environment-image="neutral"
+      alt="Locker Go 3D model"
+    >
+    </model-viewer>
+  </body>
+</html>
